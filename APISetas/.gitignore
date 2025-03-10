@@ -1,23 +1,34 @@
-# Ignorar archivos de configuración del sistema
-.DS_Store            # (MacOS)
-Thumbs.db            # (Windows)
+# Ignorar configuraciones y archivos temporales de Android Studio
+/.idea/
+/.gradle/
+/local.properties
+*.iml
 
-# Ignorar los archivos de compilación de Python
-__pycache__/         # Los archivos .pyc y .pyo generados por Python
-*.py[cod]            # Los archivos .pyc, .pyo, .pyd, etc.
+# Ignorar carpetas de compilación de Android
+/build/
+*/build/
+*/bin/
+*/gen/
 
-# Ignorar entornos virtuales
-venv/                # Si usas un entorno virtual llamado venv
-env/                 # Si usas un entorno virtual llamado env
+# Ignorar archivos de Gradle
+.gradle/
+/gradlew
+/gradlew.bat
 
-# Ignorar archivos de configuración de editores de texto
-.vscode/             # Si usas Visual Studio Code
-.idea/               # Si usas JetBrains (PyCharm, etc.)
-
-# Ignorar archivos de logs
+# Ignorar configuraciones de usuario
 *.log
+*.swp
 
-# Ignorar configuraciones de base de datos locales
-*.sqlite3            # Si usas SQLite
-db.sqlite3
+# Ignorar archivos innecesarios de la API en Python
+/__pycache__/
+/*.pyc
+/*.pyo
+/*.pyd
+/venv/
+/.env
+
+# Default ignored files
+/shelf/
+/workspace.xml       # Si usas SQLite
+
 
