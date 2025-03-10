@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+        <item
+            android:id="@+id/action_agranar_letra"
+            android:title="Agrandar letra"
+            android:icon="@android:drawable/ic_menu_zoom"
+            android:orderInCategory="300"
+            app:showAsAction="never" />
+
+        <item
+            android:id="@+id/action_modificar_datos"
+            android:title="Modificar datos"
+            android:orderInCategory="200"
+            app:showAsAction="never" />
+
+        <item
+            android:id="@+id/action_eliminar_cuenta"
+            android:title="Eliminar cuenta"
+            android:orderInCategory="100"
+            app:showAsAction="never" />
+</menu>

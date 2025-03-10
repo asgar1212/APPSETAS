@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="@drawable/champis_cabecero">
+
+    <!-- TÍTULO: Tamaño de Pie -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tamaño de Pie"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- GridLayout para los CheckBoxes de Tamaño de Pie -->
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:orientation="horizontal"
+        android:layout_marginBottom="16dp">
+
+        <CheckBox
+            android:id="@+id/checkbox_grande_pie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Grande" />
+
+        <CheckBox
+            android:id="@+id/checkbox_mediano_pie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Mediano" />
+
+        <CheckBox
+            android:id="@+id/checkbox_pequeno_pie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Pequeño" />
+
+    </GridLayout>
+
+    <!-- TÍTULO: Color de Pie -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Color de Pie"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp" />
+
+    <!-- GridLayout para los CheckBoxes de Color de Pie -->
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:orientation="horizontal"
+        android:layout_marginBottom="16dp">
+
+        <CheckBox
+            android:id="@+id/checkbox_blanco_pie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Blanco" />
+
+        <CheckBox
+            android:id="@+id/checkbox_verde_pie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Verde" />
+
+        <CheckBox
+            android:id="@+id/checkbox_amarillo_pie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Amarillo" />
+
+        <CheckBox
+            android:id="@+id/checkbox_naranja_pie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Naranja" />
+
+        <CheckBox
+            android:id="@+id/checkbox_rojo_pie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Rojo" />
+
+        <CheckBox
+            android:id="@+id/checkbox_marron_pie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Marrón" />
+
+        <CheckBox
+            android:id="@+id/checkbox_gris_pie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Gris" />
+
+        <CheckBox
+            android:id="@+id/checkbox_negro_pie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Negro" />
+
+    </GridLayout>
+
+    <!-- TÍTULO: Atributos del Pie -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Atributos del Pie"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp" />
+
+    <!-- GridLayout para los CheckBoxes de Atributos del Pie -->
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:orientation="horizontal"
+        android:layout_marginBottom="16dp">
+
+        <CheckBox
+            android:id="@+id/checkbox_rompe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Rompe" />
+
+        <CheckBox
+            android:id="@+id/checkbox_anillo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Anillo" />
+
+        <CheckBox
+            android:id="@+id/checkbox_volva"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Volva" />
+
+        <CheckBox
+            android:id="@+id/checkbox_escamas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Escamas" />
+
+    </GridLayout>
+
+    <!-- GridLayout para los botones -->
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp">
+
+        <Button
+            android:id="@+id/btnpsegunda"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_rounded"
+            android:text="Continua"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp" />
+
+        <Button
+            android:id="@+id/btnvolversegunda"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/button_rounded"
+            android:text="Volver"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp" />
+
+    </GridLayout>
+</LinearLayout>
+
+

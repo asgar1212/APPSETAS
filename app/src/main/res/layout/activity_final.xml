@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/setacentro">
+
+    <!-- Texto que está en la parte superior -->
+    <TextView
+        android:id="@+id/txtfinal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="¡Vamos a consultar posibles confusiones!"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/darker_gray"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp" />
+
+    <!-- Imagen que está debajo del texto -->
+    <ImageView
+        android:id="@+id/imagenseta"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/muscaria_login"
+        android:layout_below="@id/txtfinal"
+        android:layout_centerHorizontal="true"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/btnconsulta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Consultar"
+        android:background="@drawable/button_rounded"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="150dp" />
+
+    <Button
+        android:id="@+id/btnvolverfinal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Volver al Inicio"
+        android:background="@drawable/button_rounded"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="70dp" />
+
+</RelativeLayout>
+
+
+
+
+

@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="32dp"
+        android:background="@drawable/boletuslateral">
+
+        <!-- TextView "SOMBRERO" -->
+        <TextView
+            android:id="@+id/text_sombrero"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SOMBRERO"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <!-- TextView "Tamaño" -->
+        <TextView
+            android:id="@+id/text_tamano"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tamaño"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <!-- GridLayout para los Checkboxes de tamaño -->
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="3"
+            android:orientation="horizontal"
+            android:layout_marginBottom="16dp">
+
+            <CheckBox
+                android:id="@+id/checkbox_grande"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Grande" />
+
+            <CheckBox
+                android:id="@+id/checkbox_mediano"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Mediano" />
+
+            <CheckBox
+                android:id="@+id/checkbox_pequeno"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Pequeño" />
+        </GridLayout>
+
+        <!-- TextView "Motas y Escamas" -->
+        <TextView
+            android:id="@+id/text_motas_escamas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Motas y Escamas"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <!-- GridLayout para los Checkboxes de Motas y Escamas (Sí/No) -->
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="2"
+            android:orientation="horizontal"
+            android:layout_marginBottom="16dp">
+
+            <CheckBox
+                android:id="@+id/checkbox_si_motas_escamas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Sí" />
+
+            <CheckBox
+                android:id="@+id/checkbox_no_motas_escamas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="No" />
+        </GridLayout>
+
+        <!-- TextView "Color" -->
+        <TextView
+            android:id="@+id/text_color"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Color del sombrero"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <!-- GridLayout para los Checkboxes de Color -->
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="3"
+            android:orientation="horizontal"
+            android:layout_marginBottom="16dp">
+
+            <CheckBox
+                android:id="@+id/checkbox_blanco"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Blanco" />
+
+            <CheckBox
+                android:id="@+id/checkbox_verde"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Verde" />
+
+            <CheckBox
+                android:id="@+id/checkbox_amarillo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Amarillo" />
+
+            <CheckBox
+                android:id="@+id/checkbox_gris"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Gris" />
+
+            <CheckBox
+                android:id="@+id/checkbox_marron"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Marrón" />
+
+            <CheckBox
+                android:id="@+id/checkbox_palido"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Pálido" />
+
+            <CheckBox
+                android:id="@+id/checkbox_negro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Negro" />
+
+            <CheckBox
+                android:id="@+id/checkbox_rojo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Rojo" />
+
+            <CheckBox
+                android:id="@+id/checkbox_naranja"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Naranja" />
+        </GridLayout>
+
+        <!-- TextView "Láminas" -->
+        <TextView
+            android:id="@+id/text_laminas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Láminas"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <!-- TextView "Opciones de Láminas" -->
+        <TextView
+            android:id="@+id/text_opciones_laminas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tipo"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <!-- GridLayout para los Checkboxes de Láminas -->
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="3"
+            android:orientation="horizontal"
+            android:layout_marginBottom="16dp">
+
+            <CheckBox
+                android:id="@+id/checkbox_laminas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Láminas" />
+
+            <CheckBox
+                android:id="@+id/checkbox_poros"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Poros" />
+
+            <CheckBox
+                android:id="@+id/checkbox_pelillos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Pelillos" />
+        </GridLayout>
+
+        <!-- TextView "Esporada" -->
+        <TextView
+            android:id="@+id/text_esporada"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Esporada"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <!-- GridLayout para los Checkboxes de Esporada (Sí/No) -->
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="2"
+            android:orientation="horizontal"
+            android:layout_marginBottom="16dp">
+
+            <CheckBox
+                android:id="@+id/checkbox_si_esporada"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Sí" />
+
+            <CheckBox
+                android:id="@+id/checkbox_no_esporada"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="No" />
+        </GridLayout>
+
+        <!-- TextView "Separación" -->
+        <TextView
+            android:id="@+id/text_separacion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Separación"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <!-- GridLayout para los Checkboxes de Separación -->
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="2"
+            android:orientation="horizontal"
+            android:layout_marginBottom="16dp">
+
+            <CheckBox
+                android:id="@+id/checkbox_adheridas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Adheridas" />
+
+            <CheckBox
+                android:id="@+id/checkbox_sueltos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Sueltos" />
+
+            <CheckBox
+                android:id="@+id/checkbox_free"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Free" />
+        </GridLayout>
+        <TextView
+            android:id="@+id/text_lamina_color"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Color"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <!-- GridLayout para los Checkboxes de Color -->
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="3"
+            android:orientation="horizontal"
+            android:layout_marginBottom="16dp">
+
+            <CheckBox
+                android:id="@+id/checkbox_lamina_blanco"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Blanco" />
+
+            <CheckBox
+                android:id="@+id/checkbox_lamina_verde"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Verde" />
+
+            <CheckBox
+                android:id="@+id/checkbox_lamina_amarillo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Amarillo" />
+
+            <CheckBox
+                android:id="@+id/checkbox_lamina_gris"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Gris" />
+
+            <CheckBox
+                android:id="@+id/checkbox_lamina_marron"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Marrón" />
+
+            <CheckBox
+                android:id="@+id/checkbox_lamina_palido"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Pálido" />
+
+            <CheckBox
+                android:id="@+id/checkbox_lamina_negro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Negro" />
+
+            <CheckBox
+                android:id="@+id/checkbox_lamina_rojo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Rojo" />
+
+            <CheckBox
+                android:id="@+id/checkbox_lamina_naranja"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Naranja" />
+        </GridLayout>
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="2"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp">
+
+            <Button
+                android:id="@+id/btntercera"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_rounded"
+                android:text="Continua"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp" />
+            <Button
+                android:id="@+id/btnvolvertercera"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/button_rounded"
+                android:text="Volver"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp" />
+        </GridLayout>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="@drawable/tressetas">
+
+    <TextView
+        android:id="@+id/txt_recogida"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="¿Dónde has recogido tus setas?"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp" />
+
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp">
+
+        <CheckBox
+            android:id="@+id/checkbox_pradera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Pradera" />
+
+        <CheckBox
+            android:id="@+id/checkbox_bosque"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bosque" />
+
+        <CheckBox
+            android:id="@+id/checkbox_matorral"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Matorral" />
+
+    </GridLayout>
+
+    <TextView
+        android:id="@+id/text_temporada_recogida"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Temporada de recogida"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp" />
+
+    <!-- GridLayout para los Checkboxes de temporada -->
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp">
+
+        <CheckBox
+            android:id="@+id/checkbox_primavera"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Primavera" />
+
+        <CheckBox
+            android:id="@+id/checkbox_verano"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Verano" />
+
+        <CheckBox
+            android:id="@+id/checkbox_otono"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Otoño" />
+
+        <CheckBox
+            android:id="@+id/checkbox_invierno"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Invierno" />
+
+    </GridLayout>
+
+    <TextView
+        android:id="@+id/text_tamano_seta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tamaño de la seta"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp" />
+
+
+    <!-- GridLayout para los Checkboxes de tamaño -->
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp">
+
+        <CheckBox
+            android:id="@+id/checkbox_grande"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Grande" />
+
+        <CheckBox
+            android:id="@+id/checkbox_pequeno"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pequeño" />
+
+        <CheckBox
+            android:id="@+id/checkbox_mediano"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mediano" />
+    </GridLayout>
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp">
+
+        <Button
+            android:id="@+id/btnprimera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_rounded"
+            android:text="Continua"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp" />
+        <Button
+            android:id="@+id/btnvolver"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/button_rounded"
+            android:text="Volver"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp" />
+    </GridLayout>
+</LinearLayout>
+

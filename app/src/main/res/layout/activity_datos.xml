@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/muscaria_logo">
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bienvenido a Tus Setas!"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="24dp" />
+    <EditText
+        android:id="@+id/cajanombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre"
+        android:inputType="text"
+        android:layout_below="@+id/titulo"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/cajaapellido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Apellido"
+        android:inputType="text"
+        android:layout_below="@id/cajanombre"
+        android:layout_marginBottom="24dp"/>
+
+    <EditText
+        android:id="@+id/cajauser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Usuario"
+        android:inputType="text"
+        android:layout_below="@id/cajaapellido"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/cajapassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Contraseña"
+        android:inputType="textPassword"
+        android:layout_below="@id/cajauser"
+        android:layout_marginBottom="24dp"/>
+
+    <Button
+        android:id="@+id/loginButton"
+        android:background="@drawable/button_rounded"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registrate aqui"
+        android:layout_marginTop="100px"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/cajapassword" />
+
+    <TextView
+        android:id="@+id/infoMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_marginTop="400px"
+        android:text="Si ya estas registrado , inicia sesión pulsando la seta"
+        android:layout_below="@id/loginButton"
+        android:layout_centerInParent="true"
+        />
+
+    <Button
+        android:id="@+id/btnseta"
+        android:background="@drawable/button_rounded"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Logueate"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/infoMessage"
+        android:layout_marginTop="16dp"
+        />
+</RelativeLayout>

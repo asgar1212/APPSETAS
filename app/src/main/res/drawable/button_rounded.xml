@@ -1,0 +1,11 @@
+<!-- res/drawable/button_rounded.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#808080"/>
+    <corners android:radius="16dp"/> <!-- Radio de las esquinas redondeadas -->
+    <padding android:left="16dp"
+        android:right="16dp"
+        android:top="12dp"
+        android:textColor="@color/white"
+        android:bottom="12dp"/> <!-- Padding opcional -->
+</shape>
+
